@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
 	margin:0;
 	padding:0;
@@ -25,21 +26,21 @@ body {
 	margin:2%;
 	_overflow:hidden;
 	padding:0;
-	background-image: url("picture/BackGround.png");/* ”wŒi‰æ‘œ‚ğ•t‚¯‚é */
-	font-family: 'ƒƒCƒŠƒI';/*ƒtƒHƒ“ƒg‚ğƒƒCƒŠƒI‚É•ÏX*/
-	font-size: 12pt; /*ƒtƒHƒ“ƒgƒTƒCƒY‚ğ12pt‚É*/
+	background-image: url("picture/BackGround.png");/* èƒŒæ™¯ç”»åƒã‚’ä»˜ã‘ã‚‹ */
+	font-family: 'ãƒ¡ã‚¤ãƒªã‚ª';/*ãƒ•ã‚©ãƒ³ãƒˆã‚’ãƒ¡ã‚¤ãƒªã‚ªã«å¤‰æ›´*/
+	font-size: 12pt; /*ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã‚’12ptã«*/
 	color: white;
 }
 a href{
 	outline: border: 4px solid black;
 }
 F {
-	font-size: 16pt; /*ƒtƒHƒ“ƒgƒTƒCƒY‚ğ14pt‚É*/
+	font-size: 16pt; /*ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã‚’14ptã«*/
 }
-a:link {color:white;} /*–¢–K–â‚ÌƒŠƒ“ƒN‚ÌF*/
-a:visited {color:gray;} /*–K–âÏ‚İ‚ÌƒŠƒ“ƒN‚ÌF*/
-a:hover {color:#ffffff; background:silver;} /*ƒJ[ƒ\ƒ‹‚ªæ‚Á‚Ä‚¢‚éƒŠƒ“ƒN‚ÌF*/
-a:active {color:#ffff00;} /*ƒNƒŠƒbƒN’†‚ÌƒŠƒ“ƒN‚ÌF*/
+a:link {color:white;} /*æœªè¨ªå•ã®ãƒªãƒ³ã‚¯ã®è‰²*/
+a:visited {color:gray;} /*è¨ªå•æ¸ˆã¿ã®ãƒªãƒ³ã‚¯ã®è‰²*/
+a:hover {color:#ffffff; background:silver;} /*ã‚«ãƒ¼ã‚½ãƒ«ãŒä¹—ã£ã¦ã„ã‚‹ãƒªãƒ³ã‚¯ã®è‰²*/
+a:active {color:#ffff00;} /*ã‚¯ãƒªãƒƒã‚¯ä¸­ã®ãƒªãƒ³ã‚¯ã®è‰²*/
 
 
 
@@ -48,7 +49,7 @@ table.about {
 	border-collapse: collapse;
 	border-color: black;
 	width:40%;
-	font-size: 10pt; /*ƒtƒHƒ“ƒgƒTƒCƒY‚ğ12pt‚É*/
+	font-size: 10pt; /*ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã‚’12ptã«*/
 	color: black;
 }
 
@@ -73,7 +74,7 @@ table.story {
 	border:1px solid;
 	border-collapse: collapse;
 	width:70%;
-	font-size: 10pt; /*ƒtƒHƒ“ƒgƒTƒCƒY‚ğ12pt‚É*/
+	font-size: 10pt; /*ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã‚’12ptã«*/
 	color:black;
 }
 
@@ -90,7 +91,7 @@ table.Chara {
 	border:1px solid;
 	border-collapse: collapse;
 	width:60%;
-	font-size: 10pt; /*ƒtƒHƒ“ƒgƒTƒCƒY‚ğ12pt‚É*/
+	font-size: 10pt; /*ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã‚’12ptã«*/
 	color:black;
 }
 
@@ -112,7 +113,7 @@ table.System {
 	border:1px solid;
 	border-collapse: collapse;
 	width:75%;
-	font-size: 10pt; /*ƒtƒHƒ“ƒgƒTƒCƒY‚ğ12pt‚É*/
+	font-size: 10pt; /*ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã‚’12ptã«*/
 	color:black;
 }
 
