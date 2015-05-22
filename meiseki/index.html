@@ -1,0 +1,180 @@
+<html lang = "ja" >
+	<head>
+		<link rel="stylesheet" href="Bace.css" type="text/css">
+		<title>明赤の塔</title>
+		
+		<link rel="stylesheet" type="text/css" href="resource/lightbox.css" media="screen,tv" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script type="text/javascript" charset="UTF-8" src="resource/lightbox_plus_min.js"></script>
+			
+		<script type="text/javascript">
+			$(function(){
+				$('a[href^=#]').click(function(){
+					var speed = 500;
+					var href= $(this).attr("href");
+					var target = $(href == "#" || href == "" ? 'html' : href);
+					var position = target.offset().top;
+					$("html, body").animate({scrollTop:position}, speed, "swing");
+					return false;
+				});
+			});
+		</script>
+	
+	</head>
+	<body>
+		<div id="menu">
+			<table class = "menu">
+				<tr>
+					<td>
+						<a href = "#main">◆トップへ</a><br>
+						<a href = "#chara" >◆キャラクター</a><br>
+						<a href = "#story" >◆ストーリー</a><br>
+						<a href = "#screenshot" >◆スクリーンショット</a><br>
+						<a href = "#help" >◆お問い合わせ</a><br>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id = "main" align = "center">
+			<img src = "picture/Logo.png" alt = "明赤の塔" ><br>
+			<br>
+			<br>
+			<br>
+			<table class = "about">
+				<tr>
+					<th>タイトル</th>
+					<td>明赤の塔</td>
+				</tr>
+				<tr>
+					<th>ジャンル</th>
+					<td>一本道ローグライク</td>
+				</tr>
+				<tr>
+					<th>バージョン</th>
+					<td>0.20</td>
+				</tr>
+				<tr>
+					<th>動作環境</th>
+					<td>DirectX 9.0c以上</td>
+				</tr>
+				<tr>
+					<th>配布開始日</th>
+					<td>2015/05/2?</td>
+				</tr>
+			</table>
+			<br>
+				<table class = "download">
+					<tr>
+						<th>
+							◆　ダウンロード　◆
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<a href = "http://???">kie.nu</a><br>
+						</td>
+					</tr>
+				</table>
+		</div>
+		
+		<br>
+		<br>
+		<div id = "chara" align = "center">
+			<table class = "Chara">
+				<tr>
+					<th colspan = "2">
+						キャラクター
+					</th>
+				</tr>
+				<tr>
+					<th>
+						クレハ<br>
+						<img src = "picture/Cleha.png" >
+					</th>
+					<td>
+						主人公。<br>
+						行方不明の母に遭うために、明赤の塔を登る。
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<br>
+		<div id = "story" align = "center">
+		<table class = "story">
+				<tr>
+					<th colspan = "2">
+						ストーリー
+					</th>
+				</tr>
+			<tr>
+				<td>
+				<br>
+					魔法使いの少女、クレハ。<br><br>
+					彼女が生まれた時、ある戦争が生じた。<br><br>
+					それは科学と魔法がそれぞれの威信を賭けて争った戦争だった。<br><br>
+					その戦争は否応なしに世界を巻き込んでいき、そして、一つの決着がついた。<br><br>
+					クレハの家族も、その戦争に巻き込まれた者たちの一部だった。<br><br>
+					戦争によって彼女の家族は行方不明になり、彼女は一人ぼっちになってしまった。<br><br>
+					ある日、そんな彼女のもとに一通の手紙が届く。<br><br>
+					それは、戦争が終わってからしばらくの間世話をしてくれていた、祖父からの手紙だった。<br><br>
+					"クレハ、お前のお母さんが見つかったよ。"<br><br>
+					"お前のお母さんはずっとこの空から、お前を見守っていたんだ。"<br><br>
+					"そして、今。お前がお母さんに会いに行くための塔を建て終わった所なんだ。"<br><br>
+					"私は先に頂上で、待っているよ。"<br><br>
+					この物語は、クレハがその塔を登り始めた瞬間から始まる――<br><br>
+				</td>
+			</tr>
+		</table>
+		</div>
+		<br>
+		<br>
+		<div id = "screenshot" align = "center">
+		<table class = "ScreenShot">
+			<tr>
+					<th colspan = "2">
+						スクリーンショット<br>
+					</th>
+			</tr>
+			<tr>
+				<td>
+					<a href="picture/SS/SS1.png" rel="lightbox1" class="horizontal"><img src="picture/SS/SS1s.png" alt="SS1" title="SS1" /></a>
+				</td>
+				<td>
+					<a href="picture/SS/SS2.png" rel="lightbox1" class="horizontal"><img src="picture/SS/SS2s.png" alt="SS2" title="SS2" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="picture/SS/SS3.png" rel="lightbox1" class="horizontal"><img src="picture/SS/SS3s.png" alt="SS3" title="SS3" /></a>
+				</td>
+				<td>
+					<a href="picture/SS/SS4.png" rel="lightbox1" class="horizontal"><img src="picture/SS/SS4s.png" alt="SS4" title="SS4" /></a>
+				</td>
+			</tr>
+		</table>
+		</div>
+		<br>
+		<br>
+		<div id = "help" align = "center">
+		<table class = "Help">
+				<tr>
+					<th colspan = "2">
+						お問い合わせ<br>
+					</th>
+				</tr>
+			<tr>
+				<td>
+					<address>
+						お問い合わせはコチラ→kataocean◆gmail.com<br>
+						もしくは作者のTwitter( <a href = "http://twitter.com/kataocean">@KataOcean</a> )まで。<br>
+						ついでに作者のホームページはコチラ→<a href = "../index.html">ゴラクタ</a><br>
+					</address>
+					背景画像は白螺子屋様（→<a href = "http://hi79.web.fc2.com/" >HP</a>）よりお借りしております。
+				</td>
+			</tr>
+		</table>
+		</div>
+	</body>
+</html>
