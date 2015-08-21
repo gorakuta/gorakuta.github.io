@@ -1,51 +1,156 @@
-<DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="keywords" content="ゲーム制作,自作ゲーム,蒼明の塔,明赤の塔">
-    <link rel="stylesheet" type="text/css" href="common.css">
-	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
-	<script type="text/javascript">
-		// ここに処理を記述します。
-		$(document).ready(function(){
-    		
-    	});
-	</script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../../favicon.ico">
+
 	<title>ゴラクタ</title>
-</head>
-<body>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="starter-template.css" rel="stylesheet">
+	<link href="css/sticky-footer.css" rel="stylesheet">
+
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<script src="js/ie-emulation-modes-warning.js"></script>
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<style>
+	 body{
+	 	background: url("image/polaroid.png");
+     }
+	</style>
+  </head>
+
+  <body>
+
+	<!-- 1.ナビゲーションバーの設定 -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- 2.ヘッダ情報 -->
+			<div class="navbar-header">
+				<a class="navbar-brand">ゴラクタ</a>
+			</div>
+			<!-- 3.リストの配置 -->
+			<ul class="nav navbar-nav">
+				<li><a href="#Games">Games</a></li>
+				<li><a href="#History">History</a></li>
+				<li><a href="https://twitter.com/KataOcean">Twitter</a></li>
+				<li><a href="http://www.nicovideo.jp/user/17581671">niconico</a></li>
+				<!-- <li><a href="http://kataocean.blogspot.jp">blogs</a></li>
+				<li><a href="http://pixiv.me/kataocean">pixiv</a></li> -->
+			</ul>
+			<!-- 4.ボタン -->
+		</div>
+	</nav>
 	<div class="container">
-		<div class="header">
-				<img src="image/titlelogo.png"></img>
+	  
+		<div class="jumbotron">
+			<img src="image/titlelogo.png" class="img-responsive" alt="ゴラクタ">
+			<p>明赤の塔　ver0.21を配信中です。</p>
+			<p><a class="btn btn-danger btn-lg" href="meiseki/index.html" role="button">専用ページはコチラ</a></p>
 		</div>
-		
-		<div class="contents">	
-			<div class = "LeftBoard">
-				<div class="contentsMenu">
-					CONTENTS<br>
-					<hr color="black">
-					<a href = "top.html" target="content">TOP</a><br>
-					<a href = "games.html" target="content">GAMES</a><br>
-					<a href = "http://kataocean.blogspot.jp" target="content">BLOG</a><br>
-					<a href = "videos.html" target="content">MOVIES</a><br>
-					<a href = "http://pixiv.me/kataocean" target="_blank">PICTURES</a><br>
-					<a href = "links.html" target="content">LINKS</a><br>
-				</div>
-				<div class="TwitterBoard">
-					<a class="twitter-timeline" width="auto" href="https://twitter.com/KataOcean" data-widget-id="478500708220547072">@KataOcean からのツイート</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					<a href="http://pixiv.me/kataocean" target="_blank" ><img src="image/pixiv.gif"></a> <br>
-					<a target="_blank" href="http://www.nicovideo.jp/user/17581671">ニコニコ動画</a>
+		<div class="panel panel-default" id="Games" >
+			<div class="panel-heading">
+				<h2>Games</h2>
+			</div>
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="image/soumeiLogo.png" alt="...">
+							<div class="caption">
+								<h3>蒼明の塔</h3>
+								<p>一本道ローグライク一作目。</p>
+								<p>対応:Win</p>
+								<a href="soumei/index.html" type="button" class="btn btn-group btn-primary btn-group-justified">専用ページヘ</a>
+								<p>DL</p>
+								<a href="http://www.forest.impress.co.jp/library/software/soumeitower/" type="button" class="btn btn-group btn-primary btn-group-justified">窓の杜ライブラリ</a>
+								<a href="http://www.vector.co.jp/soft/win95/game/se505080.html" type="button" class="btn btn-group btn-primary btn-group-justified">Vector</a>
+								<a href="http://www.freem.ne.jp/win/game/6112" type="button" class="btn btn-group btn-primary btn-group-justified">ふりーむ！</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+		  					<img src="image/meisekiLogo.png" alt="...">
+		  					<div class="caption">
+								<h3>明赤の塔</h3>
+								<p>一本道ローグライク二作目。</p>
+								<p>対応:Win</p>
+								<a href="meiseki/index.html" type="button" class="btn btn-group btn-danger btn-group-justified">専用ページヘ</a>
+								<p>DL</p>
+							 	<a href="http://www.forest.impress.co.jp/library/software/meiseki/" type="button" class="btn btn-group btn-danger btn-group-justified">窓の杜ライブラリ</a>
+						 		<a href="https://drive.google.com/file/d/0B9EB7B8N9OlzTlRwNkJEc2pPclE/view?usp=sharing" type="button" class="btn btn-group btn-danger btn-group-justified">Google Drive</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="contentsBoard">
-				<iframe seamless src="top.html" frameborder="0" width=100% height=100% name="content" allowtransparency="false" >
-				</iframe>
+		</div>
+
+		<div class="panel panel-default" id="History">
+  			<div class="panel-heading">
+    			<h3 class="panel-title">更新履歴</h3>
+  			</div>
+  			<div class="panel-body">
+				<textarea cols="50" rows="20" style="width:100%;height:100px;resize: none; " readonly >
+2015/00/00 またしてもサイトをリニューアル。
+2015/07/19 トップページの文面を変更しました。
+2015/06/29 明赤の塔 ver.0.21を公開しました。
+2015/05/26 明赤の塔 ver.0.20を公開しました。
+2015/05/22 明赤の塔 ver.0.11を公開しました。
+2015/05/08 明赤の塔 ver.0.10を公開してました。
+2015/03/19 明赤の塔 ver.γを公開しました。
+2015/03/05 明赤の塔 ver.βを公開してました。
+2015/02/15 明赤の塔 ver.αを公開しました。
+2014/11/30 サイトを移転しました。ついでにタイトルも変更しました。さらにリンク集に素材サイト様を追加しました。
+2014/06/29 蒼明の塔 ver1.01に更新。
+2014/06/16 サイトをリニューアル。
+2013/01/04 蒼明の塔 ver1.00配信中。
+2013/12/13 蒼明の塔 ver0.71配信中。
+2013/12/13 蒼明の塔 ver0.70配信中。
+2013/12/06 蒼明の塔 ver0.60配信中。
+2013/11/28 蒼明の塔 ver0.50配信中。
+2013/03/31 Sky'sTowerをver.β#+1に更新。
+2013/03/27 Sky'sTowerをver.β#に更新。
+2013/03/25 Sky'sTowerを追加。
+           自作ゲームからどうぞ。
+2013/03/19 ブログを追加。
+2012/11/26 Ricordo凍結。すいません。
+2012/03/04 Ricordo ver0.10配布開始。
+　　　　　　自作ゲーム置き場解禁。
+2011/11/14 サイトをリニューアル。
+				</textarea>
 			</div>
 		</div>
-		<div class="footer" id="footer">
-			Copyright(C)　2010- Kata. All rights reserved. メール:KataOcean■gmail.com (■=＠) 推奨環境:Google Chrome
-		</div>
-	</div>
-</body>
+	</div><!-- /.container -->
+	
+	<footer class="footer">
+	  <div class="container">
+		<p class="text-muted">Copyright(C)　2010- Kata. All rights reserved.</p>
+		<p class="text-muted">背景画像:<a href="http://subtlepatterns.com/" target="_blank">subtle patterns</a></p>
+	  </div>
+	</footer>
+	
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
